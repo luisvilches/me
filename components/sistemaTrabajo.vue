@@ -38,7 +38,7 @@ export default {
                     <div class="cell-90">
                         <h4>03 PROPUESTA DE DISEÑO</h4>
                         <br>
-                        <p>Creamos una propuesta de diseño acorde a su solicitud y le enviamos la muestra para revisión y/o aprobación. Tendrá 3 eventos de cambio sin costo adicional.</p>
+                        <p>Creamos una propuesta de diseño acorde a su solicitud y le enviamos la muestra para revisión y/o aprobación.</p>
                         <br>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default {
                     <div class="cell-90">
                         <h4>04 APROBACIÓN</h4>
                         <br>
-                        <p>Ya aprobado el diseño, se realiza la preparación de archivos para entrega según el tipo proyecto; archivos digitales para publicación web, impresión, etc.</p>
+                        <p>Ya aprobado el diseño, se realiza la preparación de archivos para entrega según el tipo proyecto.</p>
                         <br>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default {
                     <div class="cell-90">
                         <h4>05 ENTREGA FINAL</h4>
                         <br>
-                        <p>Se realiza la etapa de entrega junto con el pago final del proyecto. Los trabajos impresos pueden ser retirados o también enviados a domicilio por un costo adicional.</p>
+                        <p>Se realiza la etapa de entrega junto con el pago final del proyecto.</p>
                     </div>
                 </div>
             </div>

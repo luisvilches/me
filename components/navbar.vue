@@ -3,11 +3,18 @@ export default {
     name:"navbar",
     created(){
         window.addEventListener('scroll', function(){
-            if(document.body.scrollTop > 500){
-                document.querySelector('.menux').classList.add('bgMenux');
+
+            if(document.body && document.body.scrollTop){
+                if(document.body.scrollTop > 500){
+                    document.querySelector('.menux').classList.add('bgMenux');
+                } else {
+                    document.querySelector('.menux').classList.remove('bgMenux');
+                    
+                }
             } else {
-                document.querySelector('.menux').classList.remove('bgMenux');
+                document.querySelector('.menux').classList.add('bgMenux');
             }
+            
         });
     },
     methods:{
@@ -19,7 +26,6 @@ export default {
             document.getElementById('menuList').classList.remove('active');
         },
         ir: function(el){
-            //console.log(document.getElementById(el).getBoundingClientRect())
             document.getElementById(el).scrollIntoView({behavior: "smooth"});
             document.getElementById('menuList').classList.remove('active');
         }
